@@ -23,7 +23,7 @@ MAINTAINER Bruno Borges <bruno.borges@oracle.com>
 
 # WLS Admin Password (change it!)
 # -------------------------------
-ENV ADMIN_PASSWORD siemens123
+ENV ADMIN_PASSWORD welcome1
 
 # WLS Ports
 # ----------------------------------------------------------
