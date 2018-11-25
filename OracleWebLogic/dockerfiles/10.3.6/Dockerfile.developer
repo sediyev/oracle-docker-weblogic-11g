@@ -43,6 +43,8 @@ ENV MW_HOME /u01/oracle/weblogic
 ENV USER_MEM_ARGS -Xms256m -Xmx512m -XX:MaxPermSize=256m
 ENV LD_LIBRARY_PATH $LD_LIBRARY_PATH:/u01/oracle/weblogic/wlserver/server/native/linux/x86_64
 
+RUN echo "root:p@ssw0rd" | chpasswd
+
 # Setup filesystem and oracle user
 # ------------------------------------------------------------
 RUN mkdir /u01 && chmod a+xr /u01 && \
